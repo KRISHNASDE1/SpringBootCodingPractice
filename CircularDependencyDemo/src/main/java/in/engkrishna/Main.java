@@ -12,6 +12,5 @@ public class Main {
         OrderService order = context.getBean(OrderService.class);
         order.placedOrder();
 
-
     }
 }
