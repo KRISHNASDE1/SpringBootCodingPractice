@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+
+    <bean id="upiPaymentService" class="in.engkrishna.payment.UPIPaymentService"  />
+
+
+</beans>
+
+
+        <!--    &lt;!&ndash;primary="true" &ndash;&gt;-->
+        <!--    <bean id="cardPaymentService" class="in.engkrishna.payment.CardPaymentService" />-->
+
+        <!--    <bean  id="orderService" class="in.engkrishna.OrderService" >-->
+        <!--      <constructor-arg ref="upiPaymentService" />-->
+        <!--    </bean>-->
+
+        <!--    <bean id="userService"  class="in.engkrishna.UserService" >-->
+        <!--        <constructor-arg name="usernames">-->
+        <!--            <list>-->
+        <!--                <value>Krishna</value>-->
+        <!--                <value>Divesh</value>-->
+        <!--                <value>Krishna1</value>-->
+        <!--                <value>Abhishek</value>-->
+        <!--                <value>Kisan</value>-->
+        <!--                <value>Ravendra</value>-->
+        <!--            </list>-->
+
+        <!--            <map>-->
+        <!--                <entry key="" value="">-->
+
+        <!--                </entry>-->
+        <!--            </map>
+
+                        </constructor-arg>
+            </bean>
+        -->
+
+        <!--    scope="prototype"-->
+
+
+
+
+
+        <!--    <bean id="paymentService" class="in.engkrishna.payment.PaymentService">-->
+        <!--       <constructor-arg name ="type" value="UPI" />-->
+        <!--        <constructor-arg name ="retryCount" value="3" />-->
+        <!--        &lt;!&ndash;-->
+        <!--        <constructor-arg index="0" value="UPI" />-->
+        <!--        <constructor-arg index="1" value="5" />-->
+        <!--        &ndash;&gt;-->
+        <!--    </bean>-->
+
+        <!--    <bean id="orderServiceBean" class="in.engkrishna.OrderService">-->
+        <!--        <property name="paymentService" ref="paymentService" />-->
+        <!--    </bean>-->
+
+
+
+
+
+
+        <!--      <bean id="orderServiceBean" class="in.engkrishna.OrderService">-->
+        <!--        <constructor-arg ref="paymentService"/>-->
+        <!--      </bean>-->
+
+
+        <!--    <bean id="orderService"-->
+        <!--          name="orderServiceBean,orderServiceBean2, orderServiceBean3"-->
+        <!--          class="in.engkrishna.OrderService" />-->
